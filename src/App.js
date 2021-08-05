@@ -24,7 +24,7 @@ function App() {
       <div className="show-input">{data}</div>
       <div className="digits flex">{calcBtns}</div>
       <div className="modifiers subgrid">
-        <button onClick={() => setData(data.substr(0, data.length - 1))}>Clear</button>
+        <button onClick={() => setData(data.substr(0, data.length - 1))}>Back</button>
         <button onClick={() => setData('')}>AC</button>
       </div>
 
